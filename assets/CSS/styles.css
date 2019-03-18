@@ -2,31 +2,82 @@ body	{
 	background-color:#000;
 	color:#fff;
 	font-family:sans-serif;
-	background-image:url("assets/coding.jpg");
-	background-repeat: repeat-x;
 }
 
-a	{
-	text-decoration:none;
-	color:#fff;
-	font-size:25px;
-	padding:20px;
-	font-family:sans-serif;
+#image    {
+    height:500px;
+    width:100%;
+    margin:0px;
+}
+
+.container  {
+    width:80%;
+    margin:0 auto;
+}
+
+.box    {
+    text-align: center;
+    padding:20px 300px;
+    
+}
+
+header:after    {
+    content:'';
+    display:table;
+    clear:both;
+}
+.logo   {
+    float:left;
+}
+
+nav	{
+    float:right;
+}
+
+nav ul  {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+nav li  {
+    display: inline-block;
+    margin-left:70px;
+    padding-top: 50px;
+    position: relative;
+}
+
+nav a   {
+    color:#fff;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+
+nav a:hover {
+    width:100%;
+    border:2px solid #85bb65;
+    transition: all ease-in-out 100ms;
+    color:#fff;
+    
 }
 
 #color	{
 	color:#85bb65;
-	text-align: center
+	text-align: center;
 }
 
-.img-code	{
-	width:500px;
-	height:100%;
-	background-image:url("assets/coding.jpg");
-	background-size: cover;
+.center {
+    text-align: center;
 }
-.form	{
-	padding:20px;
-	line-height:2em;
-	color:#85bb65
+
+a   {
+    color:red;
+}
+
+a:hover {
+    color:yellow;
+}
+
+.center2    {
+    text-align: center;
 }

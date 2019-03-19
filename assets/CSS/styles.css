@@ -1,7 +1,7 @@
 body	{
 	background-color:#000;
 	color:#fff;
-	font-family:sans-serif;
+	font-family:"MS Reference Sans Serif";
 }
 
 #image    {
@@ -68,6 +68,7 @@ nav a:hover {
 
 .center {
     text-align: center;
+	padding:50px 0px 0px 0px;
 }
 
 a   {
@@ -78,6 +79,42 @@ a:hover {
     color:yellow;
 }
 
-.center2    {
-    text-align: center;
+.formcolor    {
+	font-family:"MS Reference Sans Serif";
+	color:#85bb65;
+}
+
+#center	{
+	text-align: center;
+}
+
+.my-form	{
+	padding:0px 300px;
+}
+
+.my-form .form-group	{
+	padding:10px;
+}
+
+.my-form label	{
+	display:block;
+}
+
+.my-form input[type="email"], .my-form input[type="name"]	{
+	padding: 10px;
+	width:100%;
+}
+
+.my-form textarea	{
+	padding: 50px 10px;
+	width:100%;
+}
+
+.button	{
+	background-color:#85bb65;
+	color:white;
+	display: block;
+	margin: 0 auto;
+	width:10%;
+	height:3em;
 }
